@@ -19,7 +19,7 @@ export async function getListProduct(skip:number) {
 
 export async function getListProductByQuery(query: String) {
     const root = process.env.API || "https://dummyjson.com";
-    const endpoint = `/search?q=${query}`;
+    const endpoint = `/product/search?q=${query}`;
     try {
       const res = await axios({
         method: "GET",
