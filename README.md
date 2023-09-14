@@ -19,22 +19,6 @@ This is a small project that I created as part of my job application to the comp
 - Display the list of products with relevant information.
 - Implement an input for searching product name. Whenever user typing, fetch data and update the product list.
 
-
-**File Structure**
-my-app/
-  ├── src/
-  │   ├── components/ProductCard/
-  │   ├── style/
-  │   ├── types/
-      ├── api/
-  │   ├── App.tsx
-      └── index.tsx
-  ├── public/
-  ├── package.json
-  ├── README.md
-  └── .gitignore
-
-
 **Dependencies**
 React: ^18.2.0
 
