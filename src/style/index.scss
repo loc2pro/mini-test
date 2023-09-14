@@ -1,0 +1,43 @@
+h2{
+    color: rgb(218, 31, 31);
+}
+
+body{
+    margin: 0 100px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.product-card{
+    height: 400px;
+    width: 300px;
+    border: 1px solid #f2f3f4;
+    border-radius: 20px;
+    background: #f2f3f4;
+    padding: 20px;
+}
+.thumbnail{
+    height: 360px;
+    width: 100%;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.observer{
+    position: relative;
+    bottom: 200px;
+    height: 10px;
+    background: red;
+}
