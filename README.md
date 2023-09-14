@@ -1,20 +1,49 @@
-In the project directory, you can run:
+**Project Title**
+mini-test
 
-### `npm start`
+**Introduction**
+This is a small project that I created as part of my job application to the company.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Installation**
+- Clone the repository: git clone https://github.com/loc2pro/mini-test.git
+- Install dependencies: npm install | yarn
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**Usage To run the application:**
 
-### `npm test`
+- Navigate to the project directory: cd my-app
+- Start the project: npm start | yarn start
+- Open your web browser and visit: http://localhost:3000
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Features**
+- Each time the user scrolls to the end of the list, fetch the next 20 products.
+- Display the list of products with relevant information.
+- Implement an input for searching product name. Whenever user typing, fetch data and update the product list.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**File Structure**
+my-app/
+  ├── src/
+  │   ├── components/ProductCard/
+  │   ├── style/
+  │   ├── types/
+      ├── api/
+  │   ├── App.tsx
+      └── index.tsx
+  ├── public/
+  ├── package.json
+  ├── README.md
+  └── .gitignore
+
+
+**Dependencies**
+React: ^18.2.0
+
+**Troubleshooting**
+If you encounter any issues or errors, try the following steps:
+
+Make sure you have the latest version of Node.js installed.
+Delete the node_modules directory and reinstall dependencies: npm install | yarn.
+
+**Contact Information**
+For any questions or feedback, please email me at locdev2000@gmail.com.
 
