@@ -15,7 +15,7 @@ This is a small project that I created as part of my job application to the comp
 - Open your web browser and visit: http://localhost:3000
 
 **Features**
-- Each time the user scrolls to the end of the list, fetch the next 20 products.
+- Each time the user scrolls to the end of the list, fetch the next 20 products. ( using  Intersection Observer API)
 - Display the list of products with relevant information.
 - Implement an input for searching product name. Whenever user typing, fetch data and update the product list.
 
